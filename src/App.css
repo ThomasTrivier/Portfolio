@@ -1,0 +1,211 @@
+/* NAVBAR */
+
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    margin: 0
+}
+
+nav {
+    height: 12vh;
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.nav-link {
+    color: var(--dark);
+    font-size: 30px
+}
+
+.nav-link:hover {
+    color: var(--primary);
+}
+
+/* FICHE */
+
+.about {
+    background-image: url("./components/headerElements/background.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.infos {
+    padding-top: 100px;
+}
+
+.aside1 {
+    padding: 60px;
+}
+
+span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.reseaux, .title {
+    height: 75px;
+    background-color: darkblue;
+    color: white;
+}
+
+/* ABOUT */
+
+.icone {
+    font-size: 25px;
+    margin-left: 30px;
+    color: white;
+}
+
+.resume {
+    font-size: 25px;
+}
+
+.fa-linkedin-in:hover {
+    color: #0e76a8
+}
+
+.fa-facebook-f:hover {
+    color: #3b5998
+}
+
+.fa-twitter:hover {
+    color: #00acee
+}
+
+.fa-instagram:hover {
+    color: #E1306C;
+}
+
+/* SKILLS */
+
+.title {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black
+}
+
+.ligne {
+    border-bottom: 3px solid white;
+}
+
+.skills {
+    background-image: url("./components/skillsBg2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fond {
+    background-color: darkblue;
+    border: 1px solid black;
+}
+
+/* SERVICES */
+
+.bordureGrise {
+    border-bottom: 1px solid lightgrey;
+}
+
+.iconeService {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px
+}
+
+/* PORTFOLIO */
+
+button {
+    font-size: 18px;
+}
+
+.actif {
+    background-color: darkblue;
+    color: white;
+    border: 1px solid black
+}
+
+.design {
+    background-color: white;
+    color: black;
+    border: 1px solid black
+}
+
+/* CONTACT */
+
+.contact {
+    background-color: lightgrey;
+}
+
+.bouton {
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.bordure {
+    border-right: 3px solid white;
+}
+
+.icones {
+    padding-top: 20px;
+    border-top: 1px solid var(--dark)
+}
+
+.iconeContact {
+    font-size: 25px;
+    padding-right: 30px;
+    color: black;
+}
+
+footer {
+    height: 70px;
+}
+
+.copyright {
+    font-size: 20px;
+}
+
+/* MEDIAQUERY */
+
+@media screen and (max-width: 576px) {
+    .navbar {
+        display: none;
+    }
+    #tableau {
+        border: 0
+    }
+    .bordure {
+        border: 0
+    }
+    .about {
+        background-image: none;
+    }
+    .infos {
+        padding: 0;
+    }
+    .slideInRight {
+        animation-name: slideInLeft !important;
+    }
+    .aside1{
+        padding-right: 0;
+        max-width: 400px;
+    }
+    #profil {
+        width: 411px;
+        height: 411px;
+    }
+    #samere {
+        margin: 0;
+    }
+}
