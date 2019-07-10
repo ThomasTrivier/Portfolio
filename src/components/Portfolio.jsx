@@ -56,7 +56,7 @@ export default class Portfolio extends React.Component {
                         <button ref="html" onClick={this.handleChangeTab} className={(this.state.count === 2) ? "actif col-sm-3 p-2" : "design col-sm-3 p-2"}>HTML / CSS / Bootstrap</button>
                         <button ref="jsx" onClick={this.handleChangeTab} className={(this.state.count === 3) ? "actif col-sm-3 p-2" : "design col-sm-3 p-2"}>React</button>
                     </div>
-                    <div className="row p-3 mt-3 mb-5 design" id="tableau">
+                    <div className="row p-3 mt-3 mb-5" id="tableau">
                         {this.state.tab.map((element, i) =>
                             <a key={i + "-image"} href={element} target="_blank" rel="noopener noreferrer" className="col-sm-3 pl-0 pt-3">
                                 <img className="img-fluid" src={element} alt=""/>

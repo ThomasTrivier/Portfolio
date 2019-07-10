@@ -129,6 +129,10 @@ button {
     font-size: 18px;
 }
 
+.portfolio {
+    height: 100vh;
+}
+
 .actif {
     background-color: darkblue;
     color: white;
@@ -164,7 +168,7 @@ button {
 
 .iconeContact {
     font-size: 25px;
-    padding-right: 30px;
+    margin-right: 30px;
     color: black;
 }
 
@@ -182,14 +186,14 @@ footer {
     .navbar {
         display: none;
     }
-    #tableau {
-        border: 0
-    }
     .bordure {
         border: 0
     }
     .about {
         background-image: none;
+    }
+    .resume {
+        text-align: center;
     }
     .infos {
         padding: 0;
@@ -207,5 +211,8 @@ footer {
     }
     #samere {
         margin: 0;
+    }
+    .portfolio {
+        height: max-content;
     }
 }
